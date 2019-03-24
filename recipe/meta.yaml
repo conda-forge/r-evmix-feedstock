@@ -21,11 +21,7 @@ build:
     - lib/
 
 requirements:
-  build:
-
   host:
-    - libblas
-    - libcblas
     - r-base
     - r-mass
     - r-sparsem
