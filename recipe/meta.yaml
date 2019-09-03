@@ -1,4 +1,4 @@
-{% set version = '2.11' %}
+{% set version = "2.12" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/evmix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/evmix/evmix_{{ version }}.tar.gz
-  sha256: 3078cbb5544a703b42fa0064a81577d538cf2a0d6e2b9d7259a438e8b6005395
+  sha256: 6e47d53463b68ac2782201bcc6240fbc5263b2db1ac0d383062032ab135b2a0b
 
 build:
   merge_build_host: True  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
