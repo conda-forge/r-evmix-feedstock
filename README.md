@@ -1,11 +1,11 @@
-About r-evmix
-=============
+About r-evmix-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-evmix-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.math.canterbury.ac.nz/~c.scarrott/evmix
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-evmix-feedstock/blob/main/LICENSE.txt)
 
 Summary: The usual distribution functions, maximum likelihood inference and model diagnostics for univariate stationary extreme value mixture models are provided. Kernel density estimation including various boundary corrected kernel density estimation methods and a wide choice of kernels, with cross-validation likelihood based bandwidth estimator. Reasonable consistency with the base functions in the 'evd' package is provided, so that users can safely interchange most code.
 
