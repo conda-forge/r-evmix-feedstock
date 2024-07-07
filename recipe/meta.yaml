@@ -1,6 +1,5 @@
 {% set version = "2.12" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-evmix
@@ -13,8 +12,7 @@ source:
   sha256: 6e47d53463b68ac2782201bcc6240fbc5263b2db1ac0d383062032ab135b2a0b
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  number: 4
   noarch: generic
   rpaths:
     - lib/R/lib/
